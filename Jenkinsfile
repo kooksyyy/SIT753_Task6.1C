@@ -40,7 +40,7 @@ pipeline {
     }
         post{
             success{
-             emailext attachLog: true, body: 'Pipeline was successful, kindly see attached logs.', subject: 'PIPELINE STATUS NOTIFICATION',  to: 'krizzalou.i@gmail.com'
+             emailext attachLog: true, body: 'Pipeline was successful, please see attached logs.', subject: 'PIPELINE STATUS NOTIFICATION',  to: 'kookaiisidro01@gmail.com'
         }
     }
 }
